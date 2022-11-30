@@ -11,8 +11,11 @@ Este tipo de ataque suele ser usado para robar información, secuestrar sesiones
 
 Podemos encontrarnos este tipo de ataque en dos formas distintas:
 
-- Persistente: Consiste en insertar el script malicioso escrito en HTML en paginas *(con etiquetas <script> o <iframe>)*  como webs donde haya vulnerabilidades para hacerlo.
+- Persistente: Consiste en insertar el script malicioso escrito en HTML en paginas *(con etiquetas como <script> o <iframe>)*  en webs donde haya vulnerabilidades para hacerlo. 
 
 ​	
 
-- Reflejada: 
+- Reflejada: Se trata de modificar valores que la web usa para pasar variables entre dos paginas, sin usar sesiones y se da cuando:
+  - Hay un mensaje o una ruta en la URL del navegador (Mensaje de error...).
+  - En una cookie.
+  - En cualquier otra cabecera HTTP.
