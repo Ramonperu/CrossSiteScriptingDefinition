@@ -13,9 +13,12 @@ Podemos encontrarnos este tipo de ataque en dos formas distintas:
 
 - Persistente: Consiste en insertar el script malicioso escrito en HTML en paginas *(con etiquetas como <script> o <iframe>)*  en webs donde haya vulnerabilidades para hacerlo. 
 
-​	
+  <img src="/img/2ºimagenn.png" alt="2ºimagenn"  />
 
 - Reflejada: Se trata de modificar valores que la web usa para pasar variables entre dos paginas, sin usar sesiones y se da cuando:
+
   - Hay un mensaje o una ruta en la URL del navegador (Mensaje de error...).
+
   - En una cookie.
-  - En cualquier otra cabecera HTTP.
+
+    <img src="/img/3ºimagenn.png" alt="3ºimagenn"  />
